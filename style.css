@@ -18,7 +18,7 @@ hr{
 .container{
     display: flex;
     flex-direction: column;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
     padding: 20px;
     align-items: center;
     min-height: 100vh;
@@ -29,7 +29,7 @@ hr{
     align-items: center;
     justify-content: center;
     gap: 6px;
-    width: 450px;
+    width: 350px;
     height: 50px;
     padding: 10px;
     border-radius: 5px;
