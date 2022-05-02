@@ -17,12 +17,14 @@ function addTask(event) {
         newTask.appendChild(hr); // appending br to li element for linebreak
 
         let donebtn = document.createElement('button');
-        donebtn.innerHTML = "<i class='fa-solid fa-square-check'></i>";
+        donebtn.innerText = "Done";
+        donebtn.setAttribute('id', 'donebtn');
         donebtn.setAttribute('onclick', 'this.parentNode.classList.toggle("strike-through")');
         newTask.appendChild(donebtn);  // appending done btn to li element 
 
         let deletebtn = document.createElement('button');
-        deletebtn.innerHTML = "<i class='fa-solid fa-square-xmark'></i>";
+        deletebtn.innerText = "Delete";
+        deletebtn.setAttribute('id', 'deletebtn');
         deletebtn.setAttribute('onclick', 'this.parentNode.remove()');
         newTask.appendChild(deletebtn); // appending delete btn to li element
 
