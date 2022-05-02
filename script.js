@@ -1,5 +1,5 @@
 let task = document.querySelector('#task-input');
-let add = document.querySelector('#add-btn');
+let add = document.querySelector('#todo-form');
 let list = document.querySelector('#todo-list');
 
 function addTask(event) {
@@ -31,4 +31,4 @@ function addTask(event) {
     }
 }
 
-add.addEventListener('click', addTask);
+add.addEventListener('submit', addTask);
