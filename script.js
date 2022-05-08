@@ -44,7 +44,7 @@ list.addEventListener('click', function(event){
             element.parentNode.remove();
             updateList();
         }else{
-            element.parentNode.classList.toggle("strike-through");
+            element.parentNode.classList.toggle("completed");
             updateList();
         }
     }

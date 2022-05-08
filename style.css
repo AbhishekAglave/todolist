@@ -3,8 +3,9 @@
 *{
     font-family: 'Varela Round', sans-serif;
 }
-.strike-through{
+.completed{
     text-decoration: line-through;
+    background-color: #36d663;
 }
 hr{
     background-color: black;
