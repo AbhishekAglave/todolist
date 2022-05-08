@@ -33,7 +33,7 @@ hr{
     box-shadow: 0 0 5px 0.5px rgb(0, 60, 88);
 }
 .inputfield button{
-    background-color: rgb(149, 213, 231);
+    background-color: white;
     border: none;
     outline: none;
     padding: 0;
@@ -62,7 +62,7 @@ hr{
     padding: 10px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 0 5px 0.5px rgb(0, 60, 88);
+    box-shadow: 0 0 5px 0.5px rgb(0, 60, 255);
 }
 #todo-list .donebtn{
     background-color: #36d663;
