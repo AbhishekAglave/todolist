@@ -29,8 +29,8 @@ hr{
     height: 50px;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgb(206, 229, 240);
-    box-shadow: 0 0 5px 0.5px skyblue;
+    background-color: rgb(0, 60, 88);
+    box-shadow: 0 0 5px 0.5px rgb(0, 60, 88);
 }
 .inputfield button{
     background-color: rgb(149, 213, 231);
@@ -60,9 +60,9 @@ hr{
 }
 #todo-list div{
     padding: 10px;
-    background-color: rgb(206, 229, 240);
+    background-color: white;
     border-radius: 5px;
-    box-shadow: 0 0 5px 0.5px skyblue;
+    box-shadow: 0 0 5px 0.5px rgb(148, 148, 226);
 }
 #todo-list .donebtn{
     background-color: #36d663;
