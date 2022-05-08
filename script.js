@@ -19,13 +19,11 @@ function addTask(event) {
         let donebtn = document.createElement('button');
         donebtn.innerText = "Done";
         donebtn.classList.add('donebtn');
-        donebtn.setAttribute('onclick', 'this.parentNode.classList.toggle("strike-through")');
         newTask.appendChild(donebtn);  // appending done btn to li element 
 
         let deletebtn = document.createElement('button');
         deletebtn.innerText = "Delete";
         deletebtn.classList.add('deletebtn');
-        deletebtn.setAttribute('onclick', 'this.parentNode.remove()');
         newTask.appendChild(deletebtn); // appending delete btn to li element
 
         task.value = ""; // clears the text from input field after the task is added
@@ -38,5 +36,18 @@ function addTask(event) {
 function updateList(){
     localStorage.setItem('tasklistHTML', list.innerHTML);
 }
+
+list.addEventListener('click', function(event){
+    const element = event.target;
+    if(element.tagName=='BUTTON'){
+        if(element.classList.contains('deletebtn')){
+            element.parentNode.remove();
+            updateList();
+        }else{
+            element.parentNode.classList.toggle("strike-through");
+            updateList();
+        }
+    }
+});
 
 add.addEventListener('submit', addTask);
