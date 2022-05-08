@@ -4,7 +4,7 @@
     font-family: 'Varela Round', sans-serif;
 }
 hr{
-    background-color: black;
+    background-color: blue;
     border: none;
     height: 1px;
 }
@@ -43,6 +43,7 @@ hr{
     border-radius: 4px;
     font-weight: bold;
     box-shadow: 0 0 5px 0.5px rgb(255, 0, 0);
+    color: green;
 }
 .inputfield input{
     outline: none;
@@ -53,6 +54,7 @@ hr{
     font-size: 25px;
     border-radius: 4px;
     box-shadow: 0 0 5px 0.5px rgb(27, 177, 27);
+    color: red;
 }
 #todo-list{
     margin-top: 20px;
@@ -96,6 +98,7 @@ hr{
     max-width: 350px;
     word-wrap: break-word;
     line-height: 1.5;
+    color: #ff0000;
 }
 .completed{
     text-decoration: line-through;
